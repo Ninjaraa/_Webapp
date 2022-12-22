@@ -1,0 +1,47 @@
+._all-products-section {
+    margin-top: 4rem;
+
+    .container {
+        width: 100%;
+    }
+
+        .all-products-form {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            h3 {
+                font-size: $font-size-18;
+                font-weight: $font-weight-bold;
+                width: 100%;
+            }
+
+        input {
+            width: 100%;
+            height: 70px;
+            padding: 18px 20px;
+            border: 1px solid $color-gray-0;
+            font-size: $font-size-13;
+
+            &:focus {
+                outline: 0;
+            }
+        }
+
+        .product-btn {
+            background-color: $color-theme-red;
+            color: $color-white;
+            border-radius: none;
+            border: none;
+            font-weight: $font-weight-semibold;
+            width: 100%;
+            height: 70px;
+            text-align: center;
+        
+            &:hover {
+                background-color: $color-theme-dark;
+                color: $color-white;
+            }
+        }
+    }
+}

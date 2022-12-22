@@ -1,0 +1,42 @@
+.__sign-section {
+    margin-top: 4rem;
+
+    .container {
+        max-width: 1110px;
+    }
+
+    li {
+        display: inline-block;
+        font-weight: $font-weight-medium;
+        margin-left: 1rem;
+
+        a {
+            color: $color-theme-darkest;
+            text-decoration: none;
+            font-size: $font-size-18;
+
+            &:hover {
+                color: $color-theme-red;
+                text-decoration: underline;
+            }
+        }
+
+        i {
+            color: $color-theme-darkest;
+            margin: 0;
+            padding-right: 0.5rem;
+            font-size: $font-size-18;
+
+            &:hover {
+                color: $color-theme-red;
+            }
+        }
+    }
+
+    .sign-list {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        color: $color-theme-red;
+    }
+}
